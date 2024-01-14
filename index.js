@@ -8,9 +8,8 @@ function createImage(src, positionLeft, positionBottom) {
   return image;
 }
 
-function newImage(imageSrc, positionLeft, positionBottom,) {
+function newImage(imageSrc, positionLeft, positionBottom) {
   createImage(imageSrc, positionLeft, positionBottom);
-
 }
 
 newImage("assets/green-character.gif", "200px", "100px");
@@ -22,6 +21,8 @@ newImage("assets/well.png", "500px", "425px");
 newImage("assets/sword.png", "500px", "405px");
 newItem("assets/shield.png", "165px", "185px");
 newItem("assets/staff.png", "600px", "100px");
+newImage("assets/sky.png", "375px", "375px");
+newImage("assets/grass.png", "375px", "2px");
 
 function newItem(itemSrc, positionLeft, positionBottom, onClick) {
   let item = createImage(itemSrc, positionLeft, positionBottom);
